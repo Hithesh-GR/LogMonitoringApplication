@@ -3,8 +3,8 @@ import type { RawLog } from '../types';
 import { useState } from 'react';
 
 export default function FileUpload({ onParsed }: { onParsed: (rows: RawLog[]) => void }) {
-  const [name, setName] = useState('')
-  const [busy, setBusy] = useState(false)
+  const [name, setName] = useState('');
+  const [busy, setBusy] = useState(false);
 
   async function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
     const f = e.target.files?.[0]

@@ -3,9 +3,9 @@ import { secondsToHMS } from '../lib/jobs';
 import { useMemo, useState } from 'react';
 
 export default function JobTable({ jobs }: { jobs: Job[] }) {
-  const [q, setQ] = useState('')
-  const [status, setStatus] = useState<'ALL' | Job['status']>('ALL')
-  const [sort, setSort] = useState<'pid' | 'duration'>('pid')
+  const [q, setQ] = useState('');
+  const [status, setStatus] = useState<'ALL' | Job['status']>('ALL');
+  const [sort, setSort] = useState<'pid' | 'duration'>('pid');
 
   const data = useMemo(() => {
     let out = jobs
