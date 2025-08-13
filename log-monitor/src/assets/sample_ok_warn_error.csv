@@ -1,0 +1,8 @@
+HH:MM:SS,Description,Phase,PID
+00:00:00,Import inventory,START,1001
+00:04:50,Import inventory,END,1001
+00:00:10,Sync orders,START,1002
+00:06:05,Sync orders,END,1002
+00:01:00,Nightly backup,START,1003
+00:11:10,Nightly backup,END,1003
+00:02:00,Price update,START,1004
