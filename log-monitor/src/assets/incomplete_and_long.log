@@ -1,0 +1,8 @@
+00:00:00,Data migration,START,2001
+00:05:59,Data migration,END,2001
+00:00:30,Thumbnail generator,START,2002
+00:10:30,Thumbnail generator,END,2002
+00:03:00,Analytics rollup,START,2003
+# note: this line simulates a comment/extra text your parser will skip if configured
+00:03:45,Analytics rollup,END,2003
+00:07:00,Email batch,START,2004
